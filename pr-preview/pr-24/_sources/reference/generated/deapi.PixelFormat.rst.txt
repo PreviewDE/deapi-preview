@@ -17,10 +17,27 @@
         
         
         
+        
+        
+        
+        
+        
     
     
 
     
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+        :toctree:
+        :template: custom-method-template.rst
+        
+        
+        
+        
+        
+        
     
     
 

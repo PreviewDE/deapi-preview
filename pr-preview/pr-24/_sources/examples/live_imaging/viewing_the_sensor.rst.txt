@@ -134,7 +134,7 @@ update the data. If you have troubles with this please raise an issue on the git
     Response: 1811
     Response: 1799
     Response: 1811
-    Response: 1797
+    Response: 1799
 
 
 
@@ -142,7 +142,7 @@ update the data. If you have troubles with this please raise an issue on the git
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 0.661 seconds)
+   **Total running time of the script:** (0 minutes 0.619 seconds)
 
 
 .. _sphx_glr_download_examples_live_imaging_viewing_the_sensor.py:
