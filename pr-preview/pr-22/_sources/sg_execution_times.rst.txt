@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:37.978** total execution time for 7 files **from all galleries**:
+**00:38.144** total execution time for 7 files **from all galleries**:
 
 .. container::
 
@@ -33,22 +33,22 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_examples_live_imaging_taking_an_image_every_minute.py` (``../examples/live_imaging/taking_an_image_every_minute.py``)
-     - 00:25.364
+     - 00:25.365
      - 0.0
    * - :ref:`sphx_glr_examples_virtual_imaging_vdf_vbf.py` (``../examples/virtual_imaging/vdf_vbf.py``)
-     - 00:04.995
+     - 00:04.1000
      - 0.0
    * - :ref:`sphx_glr_examples_live_imaging_bright_spot_intensity.py` (``../examples/live_imaging/bright_spot_intensity.py``)
-     - 00:04.862
+     - 00:04.864
      - 0.0
    * - :ref:`sphx_glr_examples_virtual_imaging_setting_virtual_masks.py` (``../examples/virtual_imaging/setting_virtual_masks.py``)
-     - 00:02.035
+     - 00:02.164
      - 0.0
    * - :ref:`sphx_glr_examples_live_imaging_viewing_the_sensor.py` (``../examples/live_imaging/viewing_the_sensor.py``)
-     - 00:00.608
+     - 00:00.636
      - 0.0
    * - :ref:`sphx_glr_examples_live_imaging_viewing_the_sensor_tem.py` (``../examples/live_imaging/viewing_the_sensor_tem.py``)
-     - 00:00.067
+     - 00:00.070
      - 0.0
    * - :ref:`sphx_glr_examples_setting_parameters_setting_up_stem.py` (``../examples/setting_parameters/setting_up_stem.py``)
      - 00:00.047
