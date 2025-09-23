@@ -527,7 +527,10 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 10
     Acquiring...
     Response: 1810
-    Max intensity: 25
+    Max intensity: 10
+    Acquiring...
+    Response: 1810
+    Max intensity: 10
     Acquiring...
     Response: 1810
     Max intensity: 25
@@ -608,9 +611,6 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 10
     Acquiring...
     Response: 1811
-    Max intensity: 10
-    Acquiring...
-    Response: 1811
     Max intensity: 25
     Acquiring...
     Response: 1811
@@ -656,7 +656,7 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 10
+    Max intensity: 25
     Acquiring...
     Response: 1811
     Max intensity: 10
@@ -687,75 +687,6 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Acquiring...
     Response: 1811
     Max intensity: 10
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1811
-    Max intensity: 25
     Acquiring...
     Response: 1811
     Max intensity: 10
@@ -827,6 +758,15 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
+    Max intensity: 10
+    Acquiring...
+    Response: 1811
+    Max intensity: 10
+    Acquiring...
+    Response: 1811
+    Max intensity: 10
+    Acquiring...
+    Response: 1811
     Max intensity: 25
     Acquiring...
     Response: 1811
@@ -1055,10 +995,76 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 169
+    Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 169
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
     Acquiring...
     Response: 1811
     Max intensity: 25
@@ -1068,8 +1074,17 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Acquiring...
     Response: 1811
     Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 169
+    Acquiring...
+    Response: 1811
+    Max intensity: 169
     Acquiring...
     Response: 1811
+    Max intensity: 169
+    Acquiring...
+    Response: 1811
     Max intensity: 25
     Acquiring...
     Response: 1811
@@ -1161,6 +1176,12 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Acquiring...
     Response: 1811
     Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 169
+    Acquiring...
+    Response: 1811
+    Max intensity: 169
     Acquiring...
     Response: 1811
     Max intensity: 169
@@ -1250,9 +1271,24 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 169
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
+    Max intensity: 25
     Acquiring...
     Response: 1811
+    Max intensity: 25
+    Acquiring...
+    Response: 1811
     Max intensity: 169
     Acquiring...
     Response: 1811
@@ -1406,7 +1442,7 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 169
     Acquiring...
     Response: 1811
-    Max intensity: 169
+    Max intensity: 25
     Acquiring...
     Response: 1811
     Max intensity: 25
@@ -1466,7 +1502,10 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 25
+    Max intensity: 169
+    Acquiring...
+    Response: 1811
+    Max intensity: 169
     Acquiring...
     Response: 1811
     Max intensity: 169
@@ -1571,7 +1610,7 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 169
+    Max intensity: 25
     Acquiring...
     Response: 1811
     Max intensity: 169
@@ -1676,7 +1715,7 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 25
+    Max intensity: 169
     Acquiring...
     Response: 1811
     Max intensity: 169
@@ -1778,9 +1817,6 @@ of `points_per_camera_frame`.  The `histogram` is also returned which gives the 
     Max intensity: 25
     Acquiring...
     Response: 1811
-    Max intensity: 25
-    Acquiring...
-    Response: 1809
     Max intensity: 25
     Acquiring...
 
@@ -1810,7 +1846,7 @@ Retract the Camera
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 4.861 seconds)
+   **Total running time of the script:** (0 minutes 4.864 seconds)
 
 
 .. _sphx_glr_download_examples_live_imaging_bright_spot_intensity.py:
