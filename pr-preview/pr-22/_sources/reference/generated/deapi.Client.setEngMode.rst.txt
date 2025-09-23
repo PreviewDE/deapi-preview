@@ -1,6 +1,0 @@
-setEngMode
-==========
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.setEngMode
