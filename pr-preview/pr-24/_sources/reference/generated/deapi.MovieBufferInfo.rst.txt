@@ -14,11 +14,6 @@
         :template: custom-attribute-template.rst
         
         
-        
-        
-        
-        
-        
         MovieBufferInfo.total_bytes
         
     
@@ -31,27 +26,6 @@
     .. autosummary::
         :toctree:
         :template: custom-method-template.rst
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         

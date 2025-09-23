@@ -44,11 +44,6 @@
         
         
         
-        
-        
-        
-        
-        
         Client.acquiring
         
         
@@ -100,42 +95,6 @@
     .. autosummary::
         :toctree:
         :template: custom-method-template.rst
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         

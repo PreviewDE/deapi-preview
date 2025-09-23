@@ -14,11 +14,6 @@ TiltGrains
         :template: custom-attribute-template.rst
         
         
-        
-        
-        
-        
-        
     
     
 
@@ -29,28 +24,6 @@ TiltGrains
     .. autosummary::
         :toctree:
         :template: custom-method-template.rst
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         

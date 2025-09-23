@@ -14,11 +14,6 @@
         :template: custom-attribute-template.rst
         
         
-        
-        
-        
-        
-        
         VirtualMask.calculation
         
     
@@ -31,29 +26,6 @@
     .. autosummary::
         :toctree:
         :template: custom-method-template.rst
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         

@@ -14,11 +14,6 @@
         :template: custom-attribute-template.rst
         
         
-        
-        
-        
-        
-        
         PropertySpec.category
         
         
@@ -49,27 +44,6 @@
     .. autosummary::
         :toctree:
         :template: custom-method-template.rst
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
     
