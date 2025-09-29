@@ -1,6 +1,0 @@
-take\_gain\_reference
-=====================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.take_gain_reference

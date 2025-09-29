@@ -1,6 +1,0 @@
-update\_scan\_size
-==================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.update_scan_size

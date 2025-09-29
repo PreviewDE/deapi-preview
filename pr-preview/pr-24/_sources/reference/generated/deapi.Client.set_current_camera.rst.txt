@@ -1,6 +1,0 @@
-set\_current\_camera
-====================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_current_camera
