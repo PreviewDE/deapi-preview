@@ -199,7 +199,7 @@ We will create the VDF and VBF masks by setting the pixel values in the masks.
 
     Creating virtual masks...
     Setting calculation
-    /home/runner/work/deapi/deapi/deapi/data_types.py:704: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
+    /home/runner/work/deapi/deapi/deapi/data_types.py:706: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
       warnings.warn(
     Sending mask of size 1048576
     Sending mask of size 1048576
@@ -260,7 +260,7 @@ We will then acquire the virtual images using the virtual masks and plot the res
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 5.069 seconds)
+   **Total running time of the script:** (0 minutes 5.050 seconds)
 
 
 .. _sphx_glr_download_examples_virtual_imaging_vdf_vbf.py:

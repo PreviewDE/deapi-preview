@@ -28,9 +28,10 @@ leverage it to build fast/responsive visualization tools.
 
 The simplest usage of `get_result` is to get the most recently acquired frame.
 
-.. GENERATED FROM PYTHON SOURCE LINES 13-25
+.. GENERATED FROM PYTHON SOURCE LINES 13-26
 
 .. code-block:: Python
+
 
     from deapi import Client
     from deapi import ContrastStretchType
@@ -57,13 +58,13 @@ The simplest usage of `get_result` is to get the most recently acquired frame.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 26-29
+.. GENERATED FROM PYTHON SOURCE LINES 27-30
 
 Get A Single Diffraction Pattern
 --------------------------------
 We will acquire a single image. By default, this is the Raw image that is acquired from the camera.
 
-.. GENERATED FROM PYTHON SOURCE LINES 29-42
+.. GENERATED FROM PYTHON SOURCE LINES 30-43
 
 .. code-block:: Python
 
@@ -100,7 +101,7 @@ We will acquire a single image. By default, this is the Raw image that is acquir
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 43-51
+.. GENERATED FROM PYTHON SOURCE LINES 44-52
 
 Advanced Usage of `get_result`
 ------------------------------
@@ -111,15 +112,15 @@ The `get_result` function has a number of parameters that allow you to do these 
 on the server side, and only send the final result to the client. This can greatly improve
 the responsiveness of your application.
 
-.. GENERATED FROM PYTHON SOURCE LINES 51-58
+.. GENERATED FROM PYTHON SOURCE LINES 52-59
 
 .. code-block:: Python
 
 
 
-    img = client.get_result("singleframe_integrated",
-                            window_width=128, # resize to 128x128
-                            window_height=128)
+    img = client.get_result(
+        "singleframe_integrated", window_width=128, window_height=128  # resize to 128x128
+    )
     img.plot()
 
 
@@ -140,20 +141,21 @@ the responsiveness of your application.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 59-61
+.. GENERATED FROM PYTHON SOURCE LINES 60-62
 
 We can also apply a contrast stretch on the server side. This is much faster than sending
 the raw image to the client and doing the contrast stretch there.
 
-.. GENERATED FROM PYTHON SOURCE LINES 61-67
+.. GENERATED FROM PYTHON SOURCE LINES 62-69
 
 .. code-block:: Python
 
-    img = client.get_result("singleframe_integrated",
-                            window_width=128, # resize to 128x128
-                            window_height=128,
-                            stretch_type=ContrastStretchType.DIFFRACTION,
-                            )
+    img = client.get_result(
+        "singleframe_integrated",
+        window_width=128,  # resize to 128x128
+        window_height=128,
+        stretch_type=ContrastStretchType.DIFFRACTION,
+    )
     img.plot()
 
 
@@ -173,23 +175,26 @@ the raw image to the client and doing the contrast stretch there.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 68-71
+.. GENERATED FROM PYTHON SOURCE LINES 70-73
 
 You'll notice that the image is now contrast stretched. The histogram continues to show the full range
 of the data, with the color map imposed on histogram bins.
 you can also change the color map.
 
-.. GENERATED FROM PYTHON SOURCE LINES 71-78
+.. GENERATED FROM PYTHON SOURCE LINES 73-83
 
 .. code-block:: Python
 
 
-    img = client.get_result("singleframe_integrated",
-                            window_width=128, # resize to 128x128
-                            window_height=128,
-                            stretch_type=ContrastStretchType.HIGHCONTRAST,
-                            )
-    img.plot(cmap="magma",)
+    img = client.get_result(
+        "singleframe_integrated",
+        window_width=128,  # resize to 128x128
+        window_height=128,
+        stretch_type=ContrastStretchType.HIGHCONTRAST,
+    )
+    img.plot(
+        cmap="magma",
+    )
 
 
 
@@ -211,7 +216,7 @@ you can also change the color map.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 2.060 seconds)
+   **Total running time of the script:** (0 minutes 2.072 seconds)
 
 
 .. _sphx_glr_download_examples_visualization_using_get_result.py:
