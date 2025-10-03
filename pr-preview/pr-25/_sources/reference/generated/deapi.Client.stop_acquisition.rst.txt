@@ -1,6 +1,0 @@
-stop\_acquisition
-=================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.stop_acquisition

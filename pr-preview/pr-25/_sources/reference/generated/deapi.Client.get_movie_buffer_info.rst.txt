@@ -1,6 +1,0 @@
-get\_movie\_buffer\_info
-========================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.get_movie_buffer_info
