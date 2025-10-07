@@ -1,6 +1,0 @@
-set\_binning
-============
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_binning
