@@ -1,6 +1,0 @@
-disconnect
-==========
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.disconnect
