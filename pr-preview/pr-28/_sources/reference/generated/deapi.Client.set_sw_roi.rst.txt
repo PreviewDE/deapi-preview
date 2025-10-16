@@ -1,6 +1,0 @@
-set\_sw\_roi
-============
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_sw_roi

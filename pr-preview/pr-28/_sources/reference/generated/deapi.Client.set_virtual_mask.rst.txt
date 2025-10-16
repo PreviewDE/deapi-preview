@@ -1,6 +1,0 @@
-set\_virtual\_mask
-==================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_virtual_mask

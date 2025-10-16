@@ -1,6 +1,0 @@
-update\_image\_size
-===================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.update_image_size
