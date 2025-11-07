@@ -1,6 +1,0 @@
-set\_engineering\_mode
-======================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_engineering_mode

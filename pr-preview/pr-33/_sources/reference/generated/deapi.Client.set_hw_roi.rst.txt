@@ -1,6 +1,0 @@
-set\_hw\_roi
-============
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_hw_roi
