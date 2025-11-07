@@ -1,9 +1,0 @@
-currentValue
-============
-
-.. currentmodule:: deapi
-
-.. autoproperty:: PropertySpec.currentValue
-
-.. minigallery:: deapi.PropertySpec.currentValue
-    :add-heading: Examples using ``PropertySpec.currentValue``
