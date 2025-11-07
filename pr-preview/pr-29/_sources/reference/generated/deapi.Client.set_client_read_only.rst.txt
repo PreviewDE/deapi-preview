@@ -1,6 +1,0 @@
-set\_client\_read\_only
-=======================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_client_read_only
