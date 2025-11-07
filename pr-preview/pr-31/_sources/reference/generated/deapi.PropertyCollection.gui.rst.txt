@@ -1,6 +1,0 @@
-gui
-===
-
-.. currentmodule:: deapi
-
-.. automethod:: PropertyCollection.gui

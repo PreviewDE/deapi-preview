@@ -1,9 +1,0 @@
-exposureTime
-============
-
-.. currentmodule:: deapi
-
-.. autoproperty:: Client.exposureTime
-
-.. minigallery:: deapi.Client.exposureTime
-    :add-heading: Examples using ``Client.exposureTime``

@@ -1,9 +1,0 @@
-options
-=======
-
-.. currentmodule:: deapi
-
-.. autoproperty:: PropertySpec.options
-
-.. minigallery:: deapi.PropertySpec.options
-    :add-heading: Examples using ``PropertySpec.options``
