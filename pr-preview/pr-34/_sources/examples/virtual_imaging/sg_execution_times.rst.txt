@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:09.021** total execution time for 2 files **from examples/virtual_imaging**:
+**00:07.424** total execution time for 2 files **from examples/virtual_imaging**:
 
 .. container::
 
@@ -33,8 +33,8 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_examples_virtual_imaging_vdf_vbf.py` (``vdf_vbf.py``)
-     - 00:06.726
+     - 00:05.182
      - 0.0
    * - :ref:`sphx_glr_examples_virtual_imaging_setting_virtual_masks.py` (``setting_virtual_masks.py``)
-     - 00:02.296
+     - 00:02.242
      - 0.0
