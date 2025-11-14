@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:02.059** total execution time for 2 files **from examples/visualization**:
+**00:02.068** total execution time for 2 files **from examples/visualization**:
 
 .. container::
 
@@ -33,7 +33,7 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_examples_visualization_using_get_result.py` (``using_get_result.py``)
-     - 00:02.059
+     - 00:02.068
      - 0.0
    * - :ref:`sphx_glr_examples_visualization_creating_a_simple_dashboard.py` (``creating_a_simple_dashboard.py``)
      - 00:00.000
