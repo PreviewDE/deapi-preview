@@ -22,7 +22,7 @@ These examples demonstrate how to visualize the data as it is being acquired.
   .. image:: /examples/live_imaging/images/thumb/sphx_glr_bright_spot_intensity_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_live_imaging_bright_spot_intensity.py`
+  :doc:`/examples/live_imaging/bright_spot_intensity`
 
 .. raw:: html
 
@@ -39,7 +39,7 @@ These examples demonstrate how to visualize the data as it is being acquired.
   .. image:: /examples/live_imaging/images/thumb/sphx_glr_viewing_the_sensor_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_live_imaging_viewing_the_sensor.py`
+  :doc:`/examples/live_imaging/viewing_the_sensor`
 
 .. raw:: html
 
@@ -56,7 +56,7 @@ These examples demonstrate how to visualize the data as it is being acquired.
   .. image:: /examples/live_imaging/images/thumb/sphx_glr_taking_an_image_every_minute_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_live_imaging_taking_an_image_every_minute.py`
+  :doc:`/examples/live_imaging/taking_an_image_every_minute`
 
 .. raw:: html
 
@@ -73,7 +73,7 @@ These examples demonstrate how to visualize the data as it is being acquired.
   .. image:: /examples/live_imaging/images/thumb/sphx_glr_viewing_the_sensor_tem_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_live_imaging_viewing_the_sensor_tem.py`
+  :doc:`/examples/live_imaging/viewing_the_sensor_tem`
 
 .. raw:: html
 

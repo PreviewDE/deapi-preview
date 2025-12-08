@@ -22,7 +22,7 @@ Below is a gallery of examples on how to set up an acquisition using the deapi.
   .. image:: /examples/setting_parameters/images/thumb/sphx_glr_setting_up_stem_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_setting_parameters_setting_up_stem.py`
+  :doc:`/examples/setting_parameters/setting_up_stem`
 
 .. raw:: html
 

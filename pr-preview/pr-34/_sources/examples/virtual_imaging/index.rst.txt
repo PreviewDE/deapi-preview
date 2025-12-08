@@ -22,7 +22,7 @@ These examples demonstrate how to do live virtual imaging in the deapi
   .. image:: /examples/virtual_imaging/images/thumb/sphx_glr_setting_virtual_masks_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_virtual_imaging_setting_virtual_masks.py`
+  :doc:`/examples/virtual_imaging/setting_virtual_masks`
 
 .. raw:: html
 
@@ -39,7 +39,7 @@ These examples demonstrate how to do live virtual imaging in the deapi
   .. image:: /examples/virtual_imaging/images/thumb/sphx_glr_vdf_vbf_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_virtual_imaging_vdf_vbf.py`
+  :doc:`/examples/virtual_imaging/vdf_vbf`
 
 .. raw:: html
 

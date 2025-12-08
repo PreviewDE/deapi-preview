@@ -23,7 +23,7 @@ how to visualize your data.
   .. image:: /examples/visualization/images/thumb/sphx_glr_creating_a_simple_dashboard_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_visualization_creating_a_simple_dashboard.py`
+  :doc:`/examples/visualization/creating_a_simple_dashboard`
 
 .. raw:: html
 
@@ -40,7 +40,7 @@ how to visualize your data.
   .. image:: /examples/visualization/images/thumb/sphx_glr_using_get_result_thumb.png
     :alt:
 
-  :ref:`sphx_glr_examples_visualization_using_get_result.py`
+  :doc:`/examples/visualization/using_get_result`
 
 .. raw:: html
 

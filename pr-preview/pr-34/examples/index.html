@@ -43,8 +43,8 @@
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="../_static/documentation_options.js?v=5c0b1849"></script>
-    <script src="../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'examples/index';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -391,16 +391,16 @@
 <h1>Live Imaging Examples<a class="headerlink" href="#live-imaging-examples" title="Link to this heading">#</a></h1>
 <p>These examples demonstrate how to visualize the data as it is being acquired.</p>
 <div class="sphx-glr-thumbnails"><div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates how to monitor the intensity of the brightest pixel in the sensor data during acquisition."><img alt="" src="../_images/sphx_glr_bright_spot_intensity_thumb.png" />
-<p><a class="reference internal" href="live_imaging/bright_spot_intensity.html#sphx-glr-examples-live-imaging-bright-spot-intensity-py"><span class="std std-ref">Monitoring Bright Spot Intensity</span></a></p>
+<p><a class="reference internal" href="live_imaging/bright_spot_intensity.html"><span class="doc">Monitoring Bright Spot Intensity</span></a></p>
   <div class="sphx-glr-thumbnail-title">Monitoring Bright Spot Intensity</div>
 </div><div class="sphx-glr-thumbcontainer" tooltip="This example shows how to view the sensor data during acquisition. This is useful for monitoring the data during acquisition."><img alt="" src="../_images/sphx_glr_viewing_the_sensor_thumb.png" />
-<p><a class="reference internal" href="live_imaging/viewing_the_sensor.html#sphx-glr-examples-live-imaging-viewing-the-sensor-py"><span class="std std-ref">Viewing Sensor Data During Acquisition</span></a></p>
+<p><a class="reference internal" href="live_imaging/viewing_the_sensor.html"><span class="doc">Viewing Sensor Data During Acquisition</span></a></p>
   <div class="sphx-glr-thumbnail-title">Viewing Sensor Data During Acquisition</div>
 </div><div class="sphx-glr-thumbcontainer" tooltip="This example shows how to take an image every minute.  The results are saved to disk as:"><img alt="" src="../_images/sphx_glr_taking_an_image_every_minute_thumb.png" />
-<p><a class="reference internal" href="live_imaging/taking_an_image_every_minute.html#sphx-glr-examples-live-imaging-taking-an-image-every-minute-py"><span class="std std-ref">Taking an Image every 10 seconds</span></a></p>
+<p><a class="reference internal" href="live_imaging/taking_an_image_every_minute.html"><span class="doc">Taking an Image every 10 seconds</span></a></p>
   <div class="sphx-glr-thumbnail-title">Taking an Image every 10 seconds</div>
 </div><div class="sphx-glr-thumbcontainer" tooltip="Viewing the Sensor in TEM Mode"><img alt="" src="../_images/sphx_glr_viewing_the_sensor_tem_thumb.png" />
-<p><a class="reference internal" href="live_imaging/viewing_the_sensor_tem.html#sphx-glr-examples-live-imaging-viewing-the-sensor-tem-py"><span class="std std-ref">Viewing the Sensor in TEM Mode</span></a></p>
+<p><a class="reference internal" href="live_imaging/viewing_the_sensor_tem.html"><span class="doc">Viewing the Sensor in TEM Mode</span></a></p>
   <div class="sphx-glr-thumbnail-title">Viewing the Sensor in TEM Mode</div>
 </div></div></section>
 <section id="taking-references">
@@ -411,17 +411,17 @@
 <h1>Setting up an Acquisition<a class="headerlink" href="#setting-up-an-acquisition" title="Link to this heading">#</a></h1>
 <p>Below is a gallery of examples on how to set up an acquisition using the deapi.</p>
 <div class="sphx-glr-thumbnails"><div class="sphx-glr-thumbcontainer" tooltip="This script will: 1. Connect to the DE server 2. Set the hardware ROI to 256x256 3. Set the scan size to 256x256 4. Set the number of frames per second to 1000 5. Acquire a STEM image using a HAADF detector"><img alt="" src="../_images/sphx_glr_setting_up_stem_thumb.png" />
-<p><a class="reference internal" href="setting_parameters/setting_up_stem.html#sphx-glr-examples-setting-parameters-setting-up-stem-py"><span class="std std-ref">Setting up a STEM Experiment</span></a></p>
+<p><a class="reference internal" href="setting_parameters/setting_up_stem.html"><span class="doc">Setting up a STEM Experiment</span></a></p>
   <div class="sphx-glr-thumbnail-title">Setting up a STEM Experiment</div>
 </div></div></section>
 <section id="virtual-imaging">
 <h1>Virtual Imaging<a class="headerlink" href="#virtual-imaging" title="Link to this heading">#</a></h1>
 <p>These examples demonstrate how to do live virtual imaging in the deapi</p>
 <div class="sphx-glr-thumbnails"><div class="sphx-glr-thumbcontainer" tooltip="Virtual images are easily created from a series of (currently) 4 seperate masks. These masks are 8 bit images with values:"><img alt="" src="../_images/sphx_glr_setting_virtual_masks_thumb.png" />
-<p><a class="reference internal" href="virtual_imaging/setting_virtual_masks.html#sphx-glr-examples-virtual-imaging-setting-virtual-masks-py"><span class="std std-ref">Creating a Custom Virtual Mask</span></a></p>
+<p><a class="reference internal" href="virtual_imaging/setting_virtual_masks.html"><span class="doc">Creating a Custom Virtual Mask</span></a></p>
   <div class="sphx-glr-thumbnail-title">Creating a Custom Virtual Mask</div>
 </div><div class="sphx-glr-thumbcontainer" tooltip="The virtual images are created by summing or subtracting the pixel values of the input image based on the values of the virtual masks. The virtual masks are 8-bit images with values: - 0: Negative Mask, pixel values subtracted - 1: Default value, pixels not accounted for - 2: Positive Mask, pixel values added"><img alt="" src="../_images/sphx_glr_vdf_vbf_thumb.png" />
-<p><a class="reference internal" href="virtual_imaging/vdf_vbf.html#sphx-glr-examples-virtual-imaging-vdf-vbf-py"><span class="std std-ref">Virtual Dark/Bright Field (VDF/VBF) Imaging</span></a></p>
+<p><a class="reference internal" href="virtual_imaging/vdf_vbf.html"><span class="doc">Virtual Dark/Bright Field (VDF/VBF) Imaging</span></a></p>
   <div class="sphx-glr-thumbnail-title">Virtual Dark/Bright Field (VDF/VBF) Imaging</div>
 </div></div></section>
 <section id="visualization">
@@ -429,10 +429,10 @@
 <p>One key thing many people are interested in is how to visualize their data. Below are some examples/ explanations of
 how to visualize your data.</p>
 <div class="sphx-glr-thumbnails"><div class="sphx-glr-thumbcontainer" tooltip="If you haven&#x27;t already looked at the &quot;The get_result Function&quot; example, please do so as it provides important context for how the get_result function can be used to build responsive visualization tools by offloading the heavy lifting for visualization to the server side."><img alt="" src="../_images/sphx_glr_creating_a_simple_dashboard_thumb.png" />
-<p><a class="reference internal" href="visualization/creating_a_simple_dashboard.html#sphx-glr-examples-visualization-creating-a-simple-dashboard-py"><span class="std std-ref">Creating a Simple Dashboard with Panel and Matplotlib</span></a></p>
+<p><a class="reference internal" href="visualization/creating_a_simple_dashboard.html"><span class="doc">Creating a Simple Dashboard with Panel and Matplotlib</span></a></p>
   <div class="sphx-glr-thumbnail-title">Creating a Simple Dashboard with Panel and Matplotlib</div>
 </div><div class="sphx-glr-thumbcontainer" tooltip="The get_result function is the main entry point to access results while an acquisition is running, and after it has finished.  The function can be slightly confusing at first but this tutorial hopefully helps to simplify and clarify its usage and show how powerful the function is and how you can leverage it to build fast/responsive visualization tools."><img alt="" src="../_images/sphx_glr_using_get_result_thumb.png" />
-<p><a class="reference internal" href="visualization/using_get_result.html#sphx-glr-examples-visualization-using-get-result-py"><span class="std std-ref">The get_result Function</span></a></p>
+<p><a class="reference internal" href="visualization/using_get_result.html"><span class="doc">The get_result Function</span></a></p>
   <div class="sphx-glr-thumbnail-title">The get_result Function</div>
 </div></div><div class="toctree-wrapper compound">
 </div>
@@ -547,7 +547,7 @@ how to visualize your data.</p>
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.0.4.
     <br/>
   </p>
 </div>
