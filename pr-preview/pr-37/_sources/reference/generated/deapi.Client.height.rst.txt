@@ -1,9 +1,0 @@
-height
-======
-
-.. currentmodule:: deapi
-
-.. autoproperty:: Client.height
-
-.. minigallery:: deapi.Client.height
-    :add-heading: Examples using ``Client.height``
