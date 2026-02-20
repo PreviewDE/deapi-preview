@@ -1,6 +1,0 @@
-set\_register
-=============
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_register
