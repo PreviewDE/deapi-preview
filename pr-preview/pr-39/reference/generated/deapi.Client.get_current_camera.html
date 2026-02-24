@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>get_camera &#8212; deapi 5.3.0 documentation</title>
+    <title>get_current_camera &#8212; deapi 5.3.0 documentation</title>
   
   
   
@@ -45,7 +45,7 @@
     <script src="../../_static/documentation_options.js?v=5c0b1849"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'reference/generated/deapi.Client.get_camera';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'reference/generated/deapi.Client.get_current_camera';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="get_current_info" href="deapi.Client.get_current_info.html" />
@@ -321,7 +321,7 @@
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.current_movie_buffer.html">current_movie_buffer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.disconnect.html">disconnect</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.getProperty.html">getProperty</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">get_camera</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">get_current_camera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_current_info.html">get_current_info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_image.html">get_image</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_movie_buffer.html">get_movie_buffer</a></li>
@@ -337,6 +337,7 @@
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_virtual_mask.html">get_virtual_mask</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.grab.html">grab</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.gui.html">gui</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_cameras.html">list_cameras</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_properties.html">list_properties</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_registers.html">list_registers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.print_acquisition_info.html">print_acquisition_info</a></li>
@@ -351,6 +352,7 @@
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_adaptive_roi_and_get_changed_properties.html">set_adaptive_roi_and_get_changed_properties</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_binning.html">set_binning</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_client_read_only.html">set_client_read_only</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_current_camera.html">set_current_camera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_engineering_mode.html">set_engineering_mode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_hw_roi.html">set_hw_roi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_hw_roi_and_get_changed_properties.html">set_hw_roi_and_get_changed_properties</a></li>
@@ -476,7 +478,7 @@
     
     <li class="breadcrumb-item"><a href="deapi.Client.html" class="nav-link">Client</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">get_camera</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">get_current_camera</span></li>
   </ul>
 </nav>
 </div>
@@ -493,12 +495,12 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="get-camera">
-<h1>get_camera<a class="headerlink" href="#get-camera" title="Link to this heading">#</a></h1>
+  <section id="get-current-camera">
+<h1>get_current_camera<a class="headerlink" href="#get-current-camera" title="Link to this heading">#</a></h1>
 <dl class="py method">
-<dt class="sig sig-object py" id="deapi.Client.get_camera">
-<span class="sig-prename descclassname"><span class="pre">Client.</span></span><span class="sig-name descname"><span class="pre">get_camera</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#deapi.Client.get_camera" title="Link to this definition">#</a></dt>
-<dd><p>Get the camera on the server.</p>
+<dt class="sig sig-object py" id="deapi.Client.get_current_camera">
+<span class="sig-prename descclassname"><span class="pre">Client.</span></span><span class="sig-name descname"><span class="pre">get_current_camera</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#deapi.Client.get_current_camera" title="Link to this definition">#</a></dt>
+<dd><p>Get the current camera on the server.</p>
 </dd></dl>
 
 </section>
@@ -550,7 +552,7 @@
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deapi.Client.get_camera"><code class="docutils literal notranslate"><span class="pre">Client.get_camera()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deapi.Client.get_current_camera"><code class="docutils literal notranslate"><span class="pre">Client.get_current_camera()</span></code></a></li>
 </ul>
   </nav></div>
 
@@ -558,7 +560,7 @@
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="../../_sources/reference/generated/deapi.Client.get_camera.rst.txt"
+      <li><a href="../../_sources/reference/generated/deapi.Client.get_current_camera.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div></div>

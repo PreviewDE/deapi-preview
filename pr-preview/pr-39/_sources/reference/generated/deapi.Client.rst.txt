@@ -134,6 +134,8 @@
         
         
         
+        
+        
         Client.connect
         
         
@@ -146,7 +148,7 @@
         Client.getProperty
         
         
-        Client.get_camera
+        Client.get_current_camera
         
         
         Client.get_current_info
@@ -194,6 +196,9 @@
         Client.gui
         
         
+        Client.list_cameras
+        
+        
         Client.list_properties
         
         
@@ -234,6 +239,9 @@
         
         
         Client.set_client_read_only
+        
+        
+        Client.set_current_camera
         
         
         Client.set_engineering_mode
