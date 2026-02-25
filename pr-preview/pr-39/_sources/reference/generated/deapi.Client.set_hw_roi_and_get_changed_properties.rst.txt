@@ -1,6 +1,0 @@
-set\_hw\_roi\_and\_get\_changed\_properties
-===========================================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_hw_roi_and_get_changed_properties

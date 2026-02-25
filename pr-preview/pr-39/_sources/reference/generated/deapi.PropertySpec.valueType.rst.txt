@@ -1,9 +1,0 @@
-valueType
-=========
-
-.. currentmodule:: deapi
-
-.. autoproperty:: PropertySpec.valueType
-
-.. minigallery:: deapi.PropertySpec.valueType
-    :add-heading: Examples using ``PropertySpec.valueType``

@@ -1,6 +1,0 @@
-set\_xy\_array
-==============
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_xy_array

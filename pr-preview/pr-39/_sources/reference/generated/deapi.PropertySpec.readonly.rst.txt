@@ -1,9 +1,0 @@
-readonly
-========
-
-.. currentmodule:: deapi
-
-.. autoproperty:: PropertySpec.readonly
-
-.. minigallery:: deapi.PropertySpec.readonly
-    :add-heading: Examples using ``PropertySpec.readonly``
