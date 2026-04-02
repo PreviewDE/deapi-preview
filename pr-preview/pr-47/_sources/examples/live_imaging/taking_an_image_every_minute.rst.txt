@@ -84,17 +84,11 @@ before saving the final image.
 
     /home/runner/work/deapi/deapi/examples/live_imaging/taking_an_image_every_minute.py:14: DeprecationWarning: 'cgitb' is deprecated and slated for removal in Python 3.13
       from cgitb import enable
-    Command Version:  13
     Taking image 1 of 10
-    Response: 1808
     Taking image 2 of 10
-    Response: 1808
     Taking image 3 of 10
-    Response: 1808
     Taking image 4 of 10
-    Response: 1808
     Taking image 5 of 10
-    Response: 1808
 
 
 
@@ -132,7 +126,7 @@ plots both the histogram and the image.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 25.325 seconds)
+   **Total running time of the script:** (0 minutes 25.380 seconds)
 
 
 .. _sphx_glr_download_examples_live_imaging_taking_an_image_every_minute.py:

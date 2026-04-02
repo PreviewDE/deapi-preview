@@ -44,22 +44,31 @@
         
         
         
+        
+        
+        
+        
+        
+        
         Client.acquiring
         
         
-        Client.cameras
+        Client.camera
         
         
         Client.connected
         
         
-        Client.currCamera
-        
-        
         Client.debugImagesFolder
         
         
+        Client.eventMutex
+        
+        
         Client.exposureTime
+        
+        
+        Client.getEventEnabled
         
         
         Client.height
@@ -78,6 +87,9 @@
         
         
         Client.refreshProperties
+        
+        
+        Client.sdkEventSemaphore
         
         
         Client.usingMmf
@@ -133,13 +145,29 @@
         
         
         
+        
+        
+        
+        
+        
+        
+        
         Client.connect
         
         
         Client.current_movie_buffer
         
         
+        Client.disable_get_event
+        
+        
         Client.disconnect
+        
+        
+        Client.enable_get_event
+        
+        
+        Client.ensure_get_event_supported
         
         
         Client.getProperty
@@ -149,6 +177,9 @@
         
         
         Client.get_current_info
+        
+        
+        Client.get_event
         
         
         Client.get_image
@@ -172,6 +203,9 @@
         Client.get_property_specifications
         
         
+        Client.get_register
+        
+        
         Client.get_result
         
         
@@ -190,10 +224,16 @@
         Client.gui
         
         
+        Client.is_get_event_enabled
+        
+        
         Client.list_cameras
         
         
         Client.list_properties
+        
+        
+        Client.list_registers
         
         
         Client.print_acquisition_info
@@ -251,6 +291,9 @@
         
         
         Client.set_property_and_get_changed_properties
+        
+        
+        Client.set_register
         
         
         Client.set_sw_roi

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>get_result &#8212; deapi 0.1.0 documentation</title>
+    <title>get_result &#8212; deapi 5.3.0 documentation</title>
   
   
   
@@ -42,17 +42,17 @@
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="../../_static/documentation_options.js?v=01f34227"></script>
+    <script src="../../_static/documentation_options.js?v=5c0b1849"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'reference/generated/deapi.Client.get_result';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="get_server_version" href="deapi.Client.get_server_version.html" />
-    <link rel="prev" title="get_property_specifications" href="deapi.Client.get_property_specifications.html" />
+    <link rel="prev" title="get_register" href="deapi.Client.get_register.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
+  <meta name="docsearch:version" content="5.3.0" />
   </head>
   
   
@@ -118,8 +118,8 @@
       
     
     
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 0.1.0 documentation - Home"/>
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 0.1.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 5.3.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 5.3.0 documentation - Home"/>
   
   
 </a></div>
@@ -305,25 +305,31 @@
   <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="deapi.Client.html">Client</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.acquiring.html">acquiring</a></li>
-<li class="toctree-l2"><a class="reference internal" href="deapi.Client.cameras.html">cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.camera.html">camera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.connected.html">connected</a></li>
-<li class="toctree-l2"><a class="reference internal" href="deapi.Client.currCamera.html">currCamera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.debugImagesFolder.html">debugImagesFolder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.eventMutex.html">eventMutex</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.exposureTime.html">exposureTime</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.getEventEnabled.html">getEventEnabled</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.height.html">height</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.host.html">host</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.mmf.html">mmf</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.port.html">port</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.read_only.html">read_only</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.refreshProperties.html">refreshProperties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.sdkEventSemaphore.html">sdkEventSemaphore</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.usingMmf.html">usingMmf</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.width.html">width</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.connect.html">connect</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.current_movie_buffer.html">current_movie_buffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.disable_get_event.html">disable_get_event</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.disconnect.html">disconnect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.enable_get_event.html">enable_get_event</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.ensure_get_event_supported.html">ensure_get_event_supported</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.getProperty.html">getProperty</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_current_camera.html">get_current_camera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_current_info.html">get_current_info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_event.html">get_event</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_image.html">get_image</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_movie_buffer.html">get_movie_buffer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_movie_buffer_info.html">get_movie_buffer_info</a></li>
@@ -331,14 +337,17 @@
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_property.html">get_property</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_property_spec.html">get_property_spec</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_property_specifications.html">get_property_specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_register.html">get_register</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">get_result</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_server_version.html">get_server_version</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_time.html">get_time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_virtual_mask.html">get_virtual_mask</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.grab.html">grab</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.gui.html">gui</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.is_get_event_enabled.html">is_get_event_enabled</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_cameras.html">list_cameras</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_properties.html">list_properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_registers.html">list_registers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.print_acquisition_info.html">print_acquisition_info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.print_saving_info.html">print_saving_info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.print_server_info.html">print_server_info</a></li>
@@ -358,6 +367,7 @@
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_log_level.html">set_log_level</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_property.html">set_property</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_property_and_get_changed_properties.html">set_property_and_get_changed_properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_register.html">set_register</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_sw_roi.html">set_sw_roi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_sw_roi_and_get_changed_properties.html">set_sw_roi_and_get_changed_properties</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_virtual_mask.html">set_virtual_mask</a></li>
@@ -399,7 +409,11 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="deapi.FrameType.html">FrameType</a></li>
-<li class="toctree-l1"><a class="reference internal" href="deapi.PixelFormat.html">PixelFormat</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="deapi.PixelFormat.html">PixelFormat</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="deapi.PixelFormat.to_numpy_dtype.html">to_numpy_dtype</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.PixelFormat.from_numpy_dtype.html">from_numpy_dtype</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="deapi.DataType.html">DataType</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="deapi.MovieBufferInfo.html">MovieBufferInfo</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="deapi.MovieBufferInfo.total_bytes.html">total_bytes</a></li>
@@ -493,7 +507,7 @@
 <h1>get_result<a class="headerlink" href="#get-result" title="Link to this heading">#</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="deapi.Client.get_result">
-<span class="sig-prename descclassname"><span class="pre">Client.</span></span><span class="sig-name descname"><span class="pre">get_result</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">frame_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="deapi.FrameType.html#deapi.FrameType" title="deapi.data_types.FrameType"><span class="pre">FrameType</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'singleframe_integrated'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pixel_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="deapi.PixelFormat.html#deapi.PixelFormat" title="deapi.data_types.PixelFormat"><span class="pre">PixelFormat</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="deapi.DataType.html#deapi.DataType" title="deapi.data_types.DataType"><span class="pre">DataType</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'UINT16'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attributes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">histogram</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#deapi.Client.get_result" title="Link to this definition">#</a></dt>
+<span class="sig-prename descclassname"><span class="pre">Client.</span></span><span class="sig-name descname"><span class="pre">get_result</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">frame_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="deapi.FrameType.html#deapi.FrameType" title="deapi.data_types.FrameType"><span class="pre">FrameType</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'singleframe_integrated'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pixel_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="deapi.PixelFormat.html#deapi.PixelFormat" title="deapi.data_types.PixelFormat"><span class="pre">PixelFormat</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'UINT16'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attributes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">histogram</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#deapi.Client.get_result" title="Link to this definition">#</a></dt>
 <dd><p>Get the specified type of frames in the desired pixel format and associated information.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -513,10 +527,9 @@ Most common:</p>
 One of the following:</p>
 <blockquote>
 <div><ul>
-<li><p>DE8u</p></li>
-<li><p>DE16u</p></li>
-<li><p>DE32f</p></li>
-<li><p>DE64f</p></li>
+<li><p>UINT8</p></li>
+<li><p>UINT16</p></li>
+<li><p>FLOAT32</p></li>
 </ul>
 </div></blockquote>
 </p></li>
@@ -524,6 +537,33 @@ One of the following:</p>
 Some members of this parameter are input only, some are input/output.</p></li>
 <li><p><strong>histogram</strong> (<a class="reference internal" href="deapi.Histogram.html#deapi.Histogram" title="deapi.Histogram"><em>Histogram</em></a><em> | </em><em>None</em>) – Returns the histogram if desired.
 Some members of this parameter are input only, some are input/output.</p></li>
+<li><p><strong>**kwargs</strong> (<em>Additional keyword arguments used to create an Attributes Object.</em>) – <dl class="simple">
+<dt>windowWidth: int</dt><dd><p>The width of the window to return.  If 0, the full width will be returned.</p>
+</dd>
+<dt>windowHeight: int</dt><dd><p>The height of the window to return.  If 0, the full height will be returned.</p>
+</dd>
+<dt>centerX: int</dt><dd><p>The x center of the window to return.</p>
+</dd>
+<dt>centerY: int</dt><dd><p>The y center of the window to return.</p>
+</dd>
+<dt>zoom: float</dt><dd><p>The zoom factor to apply to the image.</p>
+</dd>
+<dt>fft: bool</dt><dd><p>If True, return the FFT of the image.</p>
+</dd>
+<dt>stretchType: int</dt><dd><p>The type of stretch to apply to the image.  Only used if commandVersion &gt;= 10.</p>
+</dd>
+<dt>manualStretchMin: float</dt><dd><p>The minimum value for manual stretch.  Only used if commandVersion &gt;= 10.</p>
+</dd>
+<dt>manualStretchMax: float</dt><dd><p>The maximum value for manual stretch.  Only used if commandVersion &gt;= 10.</p>
+</dd>
+<dt>manualStretchGamma: float</dt><dd><p>The gamma value for manual stretch.  Only used if commandVersion &gt;= 10.</p>
+</dd>
+<dt>linearStretch: bool</dt><dd><p>If True, apply a linear stretch to the image.  Only used if commandVersion &lt;    10.</p>
+</dd>
+<dt>outlierPercentage: float</dt><dd><p>The percentage of outliers to ignore when stretching the image.</p>
+</dd>
+</dl>
+</p></li>
 </ul>
 </dd>
 </dl>
@@ -546,12 +586,12 @@ Some members of this parameter are input only, some are input/output.</p></li>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="deapi.Client.get_property_specifications.html"
+       href="deapi.Client.get_register.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">get_property_specifications</p>
+        <p class="prev-next-title">get_register</p>
       </div>
     </a>
     <a class="right-next"

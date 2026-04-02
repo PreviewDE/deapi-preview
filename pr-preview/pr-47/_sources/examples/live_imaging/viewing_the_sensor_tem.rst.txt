@@ -31,12 +31,10 @@ This example shows how to view the sensor in TEM mode using the DEAPI.
 
  .. code-block:: none
 
-    Command Version:  13
     Summed Frames Per Second: 20.0
      Total Frames (4.0)
-    /home/runner/work/deapi/deapi/deapi/wrappers.py:49: VisibleDeprecationWarning: Argument `frameType` is deprecated. To avoid this warning, please do not use `frameType`. Use `frame_type` instead. See the documentation of `get_result()` for more details.
+    /home/runner/work/deapi/deapi/deapi/wrappers.py:51: VisibleDeprecationWarning: Argument `frameType` is deprecated. To avoid this warning, please do not use `frameType`. Use `frame_type` instead. See the documentation of `get_result()` for more details.
       def wrapped(*args, **kwargs):
-    Response: 1806
     Frame Index: 0
     Max intensity: 10
 
@@ -109,7 +107,7 @@ This example shows how to view the sensor in TEM mode using the DEAPI.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 0.070 seconds)
+   **Total running time of the script:** (0 minutes 0.072 seconds)
 
 
 .. _sphx_glr_download_examples_live_imaging_viewing_the_sensor_tem.py:

@@ -65,12 +65,6 @@ Here we will
 
 
 
-.. rst-class:: sphx-glr-script-out
-
- .. code-block:: none
-
-    Command Version:  13
-
 
 
 
@@ -107,7 +101,6 @@ We can then use the brightest disk in the diffraction pattern to generate the VD
 
     Acquiring a single diffraction pattern...
     Acquisition finished.
-    Response: 1808
 
 
 
@@ -200,19 +193,9 @@ We will create the VDF and VBF masks by setting the pixel values in the masks.
 
     Creating virtual masks...
     Setting calculation
-    /home/runner/work/deapi/deapi/deapi/data_types.py:591: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
+    /home/runner/work/deapi/deapi/deapi/data_types.py:706: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
       warnings.warn(
-    Response: 1808
-    Sending mask of size 1048576
-    Response: 1808
-    Sending mask of size 1048576
     Virtual Mask 1: VBF Sum
-    Response: 1808
-    Response: 1808
-    Sending mask of size 1048576
-    Response: 1808
-    Sending mask of size 1048576
-    Response: 1808
     Virtual Masks:
     VBF: VBF (Sum)
     VDF: VDF (Sum)
@@ -260,9 +243,6 @@ We will then acquire the virtual images using the virtual masks and plot the res
  .. code-block:: none
 
     Acquiring virtual images...
-    Response: 1797
-    Response: 1797
-    Response: 1807
 
 
 
@@ -270,7 +250,7 @@ We will then acquire the virtual images using the virtual masks and plot the res
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 5.042 seconds)
+   **Total running time of the script:** (0 minutes 5.530 seconds)
 
 
 .. _sphx_glr_download_examples_virtual_imaging_vdf_vbf.py:

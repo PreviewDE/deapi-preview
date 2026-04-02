@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Creating a Custom Virtual Mask &#8212; deapi 0.1.0 documentation</title>
+    <title>Creating a Custom Virtual Mask &#8212; deapi 5.3.0 documentation</title>
   
   
   
@@ -42,7 +42,7 @@
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="../../_static/documentation_options.js?v=01f34227"></script>
+    <script src="../../_static/documentation_options.js?v=5c0b1849"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'examples/virtual_imaging/setting_virtual_masks';</script>
@@ -52,7 +52,7 @@
     <link rel="prev" title="Virtual Imaging" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
+  <meta name="docsearch:version" content="5.3.0" />
   </head>
   
   
@@ -118,8 +118,8 @@
       
     
     
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 0.1.0 documentation - Home"/>
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 0.1.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 5.3.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 5.3.0 documentation - Home"/>
   
   
 </a></div>
@@ -321,6 +321,11 @@
 <li class="toctree-l2"><a class="reference internal" href="vdf_vbf.html">Virtual Dark/Bright Field (VDF/VBF) Imaging</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../visualization/index.html">Visualization</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../visualization/creating_a_simple_dashboard.html">Creating a Simple Dashboard with Panel and Matplotlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../visualization/using_get_result.html">The <cite>get_result</cite> Function</a></li>
+</ul>
+</details></li>
 </ul>
 </div>
 </nav></div>
@@ -414,12 +419,7 @@ are 8 bit images with values:</p>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Virtual Mask 0: &quot;</span><span class="p">,</span> <a href="../../reference/generated/deapi.Client.html#deapi.Client" title="deapi.Client" class="sphx-glr-backref-module-deapi sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">c</span></a><span class="o">.</span><span class="n">virtual_masks</span><span class="p">[</span><span class="mi">1</span><span class="p">][:]</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_setting_virtual_masks_001.png" srcset="../../_images/sphx_glr_setting_virtual_masks_001.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Command Version:  13
-Response: 1806
-Sending mask of size 1048576
-Response: 1806
-Response: 1806
-Virtual Mask 0:  (1024, 1024)
+<img src="../../_images/sphx_glr_setting_virtual_masks_001.png" srcset="../../_images/sphx_glr_setting_virtual_masks_001.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Virtual Mask 0:  (1024, 1024)
 </pre></div>
 </div>
 <section id="changing-the-virtual-mask">
@@ -433,11 +433,7 @@ be 2 (positive mask)</p>
 <a href="../../reference/generated/deapi.Client.html#deapi.Client" title="deapi.Client" class="sphx-glr-backref-module-deapi sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">c</span></a><span class="o">.</span><span class="n">virtual_masks</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_setting_virtual_masks_002.png" srcset="../../_images/sphx_glr_setting_virtual_masks_002.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Response: 1806
-Sending mask of size 1048576
-Response: 1806
-
-&lt;Axes: &gt;
+<img src="../../_images/sphx_glr_setting_virtual_masks_002.png" srcset="../../_images/sphx_glr_setting_virtual_masks_002.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
 </section>
@@ -452,13 +448,8 @@ The calculation attribute. Lets try that with Virtual image 1</p>
 <a href="../../reference/generated/deapi.Client.html#deapi.Client" title="deapi.Client" class="sphx-glr-backref-module-deapi sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">c</span></a><span class="o">.</span><span class="n">virtual_masks</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_setting_virtual_masks_003.png" srcset="../../_images/sphx_glr_setting_virtual_masks_003.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/home/runner/work/deapi/deapi/deapi/data_types.py:591: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
+<img src="../../_images/sphx_glr_setting_virtual_masks_003.png" srcset="../../_images/sphx_glr_setting_virtual_masks_003.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/home/runner/work/deapi/deapi/deapi/data_types.py:706: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
   warnings.warn(
-Response: 1806
-Sending mask of size 1048576
-Response: 1806
-Sending mask of size 1048576
-Response: 1806
 
 &lt;Axes: &gt;
 </pre></div>
@@ -475,14 +466,7 @@ Response: 1806
 <a href="../../reference/generated/deapi.Client.html#deapi.Client" title="deapi.Client" class="sphx-glr-backref-module-deapi sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">c</span></a><span class="o">.</span><span class="n">virtual_masks</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_setting_virtual_masks_004.png" srcset="../../_images/sphx_glr_setting_virtual_masks_004.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Response: 1806
-Response: 1806
-Sending mask of size 1048576
-Response: 1806
-Sending mask of size 1048576
-Response: 1806
-
-&lt;Axes: &gt;
+<img src="../../_images/sphx_glr_setting_virtual_masks_004.png" srcset="../../_images/sphx_glr_setting_virtual_masks_004.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
 <div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Plotting Multiple Virtual Images</span>
@@ -495,11 +479,7 @@ Response: 1806
     <a href="../../reference/generated/deapi.VirtualMask.plot.html#deapi.VirtualMask.plot" title="deapi.VirtualMask.plot" class="sphx-glr-backref-module-deapi sphx-glr-backref-type-py-method"><span class="n">v</span><span class="o">.</span><span class="n">plot</span></a><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_setting_virtual_masks_005.png" srcset="../../_images/sphx_glr_setting_virtual_masks_005.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Response: 1806
-Response: 1806
-</pre></div>
-</div>
-</section>
+<img src="../../_images/sphx_glr_setting_virtual_masks_005.png" srcset="../../_images/sphx_glr_setting_virtual_masks_005.png" alt="setting virtual masks" class = "sphx-glr-single-img"/></section>
 <section id="starting-an-acquisition">
 <h2>Starting an Acquisition<a class="headerlink" href="#starting-an-acquisition" title="Link to this heading">#</a></h2>
 <p>Once we have set up an experiment we can start an acquisition using the
@@ -519,12 +499,7 @@ start acquisition function</p>
 <a href="../../reference/generated/deapi.Client.disconnect.html#deapi.Client.disconnect" title="deapi.Client.disconnect" class="sphx-glr-backref-module-deapi sphx-glr-backref-type-py-method"><span class="n">c</span><span class="o">.</span><span class="n">disconnect</span></a><span class="p">()</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_setting_virtual_masks_006.png" srcset="../../_images/sphx_glr_setting_virtual_masks_006.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Response: 1797
-Response: 1807
-Response: 1807
-</pre></div>
-</div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 2.135 seconds)</p>
+<img src="../../_images/sphx_glr_setting_virtual_masks_006.png" srcset="../../_images/sphx_glr_setting_virtual_masks_006.png" alt="setting virtual masks" class = "sphx-glr-single-img"/><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 2.170 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-virtual-imaging-setting-virtual-masks-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/4b987e299edee6150eba4a8f5d794c2c/setting_virtual_masks.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">setting_virtual_masks.ipynb</span></code></a></p>

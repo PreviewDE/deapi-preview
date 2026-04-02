@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Client &#8212; deapi 0.1.0 documentation</title>
+    <title>Client &#8212; deapi 5.3.0 documentation</title>
   
   
   
@@ -42,7 +42,7 @@
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="../../_static/documentation_options.js?v=01f34227"></script>
+    <script src="../../_static/documentation_options.js?v=5c0b1849"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'reference/generated/deapi.Client';</script>
@@ -52,7 +52,7 @@
     <link rel="prev" title="Reference" href="../index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
+  <meta name="docsearch:version" content="5.3.0" />
   </head>
   
   
@@ -118,8 +118,8 @@
       
     
     
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 0.1.0 documentation - Home"/>
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 0.1.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 5.3.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 5.3.0 documentation - Home"/>
   
   
 </a></div>
@@ -305,25 +305,31 @@
   <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Client</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.acquiring.html">acquiring</a></li>
-<li class="toctree-l2"><a class="reference internal" href="deapi.Client.cameras.html">cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.camera.html">camera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.connected.html">connected</a></li>
-<li class="toctree-l2"><a class="reference internal" href="deapi.Client.currCamera.html">currCamera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.debugImagesFolder.html">debugImagesFolder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.eventMutex.html">eventMutex</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.exposureTime.html">exposureTime</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.getEventEnabled.html">getEventEnabled</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.height.html">height</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.host.html">host</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.mmf.html">mmf</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.port.html">port</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.read_only.html">read_only</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.refreshProperties.html">refreshProperties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.sdkEventSemaphore.html">sdkEventSemaphore</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.usingMmf.html">usingMmf</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.width.html">width</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.connect.html">connect</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.current_movie_buffer.html">current_movie_buffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.disable_get_event.html">disable_get_event</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.disconnect.html">disconnect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.enable_get_event.html">enable_get_event</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.ensure_get_event_supported.html">ensure_get_event_supported</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.getProperty.html">getProperty</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_current_camera.html">get_current_camera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_current_info.html">get_current_info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_event.html">get_event</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_image.html">get_image</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_movie_buffer.html">get_movie_buffer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_movie_buffer_info.html">get_movie_buffer_info</a></li>
@@ -331,14 +337,17 @@
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_property.html">get_property</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_property_spec.html">get_property_spec</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_property_specifications.html">get_property_specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_register.html">get_register</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_result.html">get_result</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_server_version.html">get_server_version</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_time.html">get_time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.get_virtual_mask.html">get_virtual_mask</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.grab.html">grab</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.gui.html">gui</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.is_get_event_enabled.html">is_get_event_enabled</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_cameras.html">list_cameras</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_properties.html">list_properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.list_registers.html">list_registers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.print_acquisition_info.html">print_acquisition_info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.print_saving_info.html">print_saving_info</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.print_server_info.html">print_server_info</a></li>
@@ -358,6 +367,7 @@
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_log_level.html">set_log_level</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_property.html">set_property</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_property_and_get_changed_properties.html">set_property_and_get_changed_properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_register.html">set_register</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_sw_roi.html">set_sw_roi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_sw_roi_and_get_changed_properties.html">set_sw_roi_and_get_changed_properties</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deapi.Client.set_virtual_mask.html">set_virtual_mask</a></li>
@@ -399,7 +409,11 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="deapi.FrameType.html">FrameType</a></li>
-<li class="toctree-l1"><a class="reference internal" href="deapi.PixelFormat.html">PixelFormat</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="deapi.PixelFormat.html">PixelFormat</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="deapi.PixelFormat.to_numpy_dtype.html">to_numpy_dtype</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deapi.PixelFormat.from_numpy_dtype.html">from_numpy_dtype</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="deapi.DataType.html">DataType</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="deapi.MovieBufferInfo.html">MovieBufferInfo</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="deapi.MovieBufferInfo.total_bytes.html">total_bytes</a></li>
@@ -505,37 +519,43 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.acquiring.html#deapi.Client.acquiring" title="deapi.Client.acquiring"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.acquiring</span></code></a></p></td>
 <td><p>Check if the camera is currently acquiring images.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.cameras</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.camera</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.connected</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.currCamera</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.debugImagesFolder</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.debugImagesFolder</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.eventMutex</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.exposureTime</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.height</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.getEventEnabled</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.host</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.height</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.mmf</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.host</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.port</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.mmf</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.read_only</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.port</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.refreshProperties</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.read_only</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.refreshProperties</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.sdkEventSemaphore</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.usingMmf</span></code></p></td>
@@ -556,158 +576,182 @@
 <tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.current_movie_buffer.html#deapi.Client.current_movie_buffer" title="deapi.Client.current_movie_buffer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.current_movie_buffer</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.disconnect.html#deapi.Client.disconnect" title="deapi.Client.disconnect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.disconnect</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.disable_get_event.html#deapi.Client.disable_get_event" title="deapi.Client.disable_get_event"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.disable_get_event</span></code></a>()</p></td>
+<td><p>Disable event retrieval from the server.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.disconnect.html#deapi.Client.disconnect" title="deapi.Client.disconnect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.disconnect</span></code></a>()</p></td>
 <td><p>Disconnects from the server.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.getProperty.html#deapi.Client.getProperty" title="deapi.Client.getProperty"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.getProperty</span></code></a>(property_name)</p></td>
-<td><p>Get the value of a property of the current camera on DE-Server</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.enable_get_event.html#deapi.Client.enable_get_event" title="deapi.Client.enable_get_event"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.enable_get_event</span></code></a>()</p></td>
+<td><p>Enable event retrieval from the server.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_current_camera.html#deapi.Client.get_current_camera" title="deapi.Client.get_current_camera"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_current_camera</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.ensure_get_event_supported.html#deapi.Client.ensure_get_event_supported" title="deapi.Client.ensure_get_event_supported"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.ensure_get_event_supported</span></code></a>()</p></td>
+<td><p>Ensure get_event related functions are only used on Windows platforms.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.getProperty.html#deapi.Client.getProperty" title="deapi.Client.getProperty"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.getProperty</span></code></a>(property_name)</p></td>
+<td><p>Get the value of a property of the camera on DE-Server</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_current_camera.html#deapi.Client.get_current_camera" title="deapi.Client.get_current_camera"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_current_camera</span></code></a>()</p></td>
 <td><p>Get the current camera on the server.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_current_info.html#deapi.Client.get_current_info" title="deapi.Client.get_current_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_current_info</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_current_info.html#deapi.Client.get_current_info" title="deapi.Client.get_current_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_current_info</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_image.html#deapi.Client.get_image" title="deapi.Client.get_image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_image</span></code></a>([pixelFormat, fileName, ...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_event.html#deapi.Client.get_event" title="deapi.Client.get_event"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_event</span></code></a>()</p></td>
+<td><p>Retrieve the next event from the server.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_image.html#deapi.Client.get_image" title="deapi.Client.get_image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_image</span></code></a>([frame_type, pixel_format, ...])</p></td>
 <td><p>Get a single image and save it to disk if a file name is provided</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_movie_buffer.html#deapi.Client.get_movie_buffer" title="deapi.Client.get_movie_buffer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_movie_buffer</span></code></a>(movieBuffer, ...[, ...])</p></td>
-<td><p>Get the movie buffer of the current camera on DE-Server.</p></td>
+<td><p>Get the movie buffer of the camera on DE-Server.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_movie_buffer_info.html#deapi.Client.get_movie_buffer_info" title="deapi.Client.get_movie_buffer_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_movie_buffer_info</span></code></a>([...])</p></td>
-<td><p>Get the movie buffer information of the current camera on DE-Server.</p></td>
+<td><p>Get the movie buffer information of the camera on DE-Server.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_properties.html#deapi.Client.get_properties" title="deapi.Client.get_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_properties</span></code></a>([names])</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_property.html#deapi.Client.get_property" title="deapi.Client.get_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_property</span></code></a>(property_name)</p></td>
-<td><p>Get the value of a property of the current camera on DE-Server</p></td>
+<td><p>Get the value of a property of the camera on DE-Server</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_property_spec.html#deapi.Client.get_property_spec" title="deapi.Client.get_property_spec"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_property_spec</span></code></a>(property_name)</p></td>
-<td><p>Get a list of allowed values for a property of the current camera on DE-Server Deprecated since DE-MC 2.7.4</p></td>
+<td><p>Get a list of allowed values for a property of the camera on DE-Server Deprecated since DE-MC 2.7.4</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_property_specifications.html#deapi.Client.get_property_specifications" title="deapi.Client.get_property_specifications"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_property_specifications</span></code></a>(property_name)</p></td>
-<td><p>Get a list of allowed values for a property of the current camera on DE-Server Only works for DE-MC version greater or equal to 2.7.4</p></td>
+<td><p>Get a list of allowed values for a property of the camera on DE-Server Only works for DE-MC version greater or equal to 2.7.4</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_result.html#deapi.Client.get_result" title="deapi.Client.get_result"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_result</span></code></a>([frame_type, ...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_register.html#deapi.Client.get_register" title="deapi.Client.get_register"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_register</span></code></a>(register_name)</p></td>
+<td><p>Get the value of a register of the camera on DE-Server</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_result.html#deapi.Client.get_result" title="deapi.Client.get_result"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_result</span></code></a>([frame_type, ...])</p></td>
 <td><p>Get the specified type of frames in the desired pixel format and associated information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_server_version.html#deapi.Client.get_server_version" title="deapi.Client.get_server_version"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_server_version</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_server_version.html#deapi.Client.get_server_version" title="deapi.Client.get_server_version"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_server_version</span></code></a>()</p></td>
 <td><p>Get the server software version</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_time.html#deapi.Client.get_time" title="deapi.Client.get_time"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_time</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_time.html#deapi.Client.get_time" title="deapi.Client.get_time"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_time</span></code></a>()</p></td>
 <td><p>Get the current time from the system clock</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.get_virtual_mask.html#deapi.Client.get_virtual_mask" title="deapi.Client.get_virtual_mask"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_virtual_mask</span></code></a>(index)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.get_virtual_mask.html#deapi.Client.get_virtual_mask" title="deapi.Client.get_virtual_mask"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.get_virtual_mask</span></code></a>(index)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.grab.html#deapi.Client.grab" title="deapi.Client.grab"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.grab</span></code></a>([frames, dataSetName, fileName])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.grab.html#deapi.Client.grab" title="deapi.Client.grab"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.grab</span></code></a>([frames, dataSetName, fileName])</p></td>
 <td><p>Grab specified number of frames and print out stats.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.gui.html#deapi.Client.gui" title="deapi.Client.gui"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.gui</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.gui.html#deapi.Client.gui" title="deapi.Client.gui"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.gui</span></code></a>()</p></td>
 <td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.is_get_event_enabled.html#deapi.Client.is_get_event_enabled" title="deapi.Client.is_get_event_enabled"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.is_get_event_enabled</span></code></a>()</p></td>
+<td><p>Check if event retrieval from the server is currently enabled.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.list_cameras.html#deapi.Client.list_cameras" title="deapi.Client.list_cameras"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.list_cameras</span></code></a>()</p></td>
-<td><p>List the available cameras on the server.</p></td>
+<td><p>Deprecated function.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.list_properties.html#deapi.Client.list_properties" title="deapi.Client.list_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.list_properties</span></code></a>([options, search])</p></td>
-<td><p>Get a list of property names from the current camera on DE-Server</p></td>
+<td><p>Get a list of property names from the camera on DE-Server</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.print_acquisition_info.html#deapi.Client.print_acquisition_info" title="deapi.Client.print_acquisition_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.print_acquisition_info</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.list_registers.html#deapi.Client.list_registers" title="deapi.Client.list_registers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.list_registers</span></code></a>([options, search])</p></td>
+<td><p>Get a list of register names from the camera on DE-Server for each register, it contains attributes: name of the register, address, Read only, value of the register</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.print_acquisition_info.html#deapi.Client.print_acquisition_info" title="deapi.Client.print_acquisition_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.print_acquisition_info</span></code></a>()</p></td>
 <td><p>Print out the acquisition information</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.print_saving_info.html#deapi.Client.print_saving_info" title="deapi.Client.print_saving_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.print_saving_info</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.print_saving_info.html#deapi.Client.print_saving_info" title="deapi.Client.print_saving_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.print_saving_info</span></code></a>()</p></td>
 <td><p>Print out the saving information</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.print_server_info.html#deapi.Client.print_server_info" title="deapi.Client.print_server_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.print_server_info</span></code></a>([camera])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.print_server_info.html#deapi.Client.print_server_info" title="deapi.Client.print_server_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.print_server_info</span></code></a>([camera])</p></td>
 <td><p>Print out the server information</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.save_image.html#deapi.Client.save_image" title="deapi.Client.save_image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.save_image</span></code></a>(image, fileName[, textSize])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.save_image.html#deapi.Client.save_image" title="deapi.Client.save_image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.save_image</span></code></a>(image, fileName[, textSize])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.setEngMode.html#deapi.Client.setEngMode" title="deapi.Client.setEngMode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setEngMode</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.setEngMode.html#deapi.Client.setEngMode" title="deapi.Client.setEngMode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setEngMode</span></code></a>(enable, password)</p></td>
+<td><p>Set the engineering mode of the camera on DE-Server.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.setEngModeAndGetChangedProperties.html#deapi.Client.setEngModeAndGetChangedProperties" title="deapi.Client.setEngModeAndGetChangedProperties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setEngModeAndGetChangedProperties</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.setEngModeAndGetChangedProperties.html#deapi.Client.setEngModeAndGetChangedProperties" title="deapi.Client.setEngModeAndGetChangedProperties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setEngModeAndGetChangedProperties</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.setProperty.html#deapi.Client.setProperty" title="deapi.Client.setProperty"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setProperty</span></code></a>(name, value)</p></td>
+<td><p>Set the value of a property of the camera on DE-Server</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.setROI.html#deapi.Client.setROI" title="deapi.Client.setROI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setROI</span></code></a>(offsetX, offsetY, sizeX, sizeY)</p></td>
+<td><p>Set the region of interest (ROI) of the camera on DE-Server.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_adaptive_roi.html#deapi.Client.set_adaptive_roi" title="deapi.Client.set_adaptive_roi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_adaptive_roi</span></code></a>(size_x, size_y[, ...])</p></td>
+<td><p>Automatically choose the proper HW ROI and set SW ROI of the camera on DE-Server.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_adaptive_roi_and_get_changed_properties.html#deapi.Client.set_adaptive_roi_and_get_changed_properties" title="deapi.Client.set_adaptive_roi_and_get_changed_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_adaptive_roi_and_get_changed_properties</span></code></a>(...)</p></td>
+<td><p>Automatically choose the proper HW ROI and set SW ROI of the camera on DE-Server and get all of the changed properties.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_binning.html#deapi.Client.set_binning" title="deapi.Client.set_binning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_binning</span></code></a>(bin_x, bin_y[, use_hw])</p></td>
+<td><p>Set the binning of the camera on DE-Server.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_client_read_only.html#deapi.Client.set_client_read_only" title="deapi.Client.set_client_read_only"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_client_read_only</span></code></a>(read_only)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.setProperty.html#deapi.Client.setProperty" title="deapi.Client.setProperty"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setProperty</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_current_camera.html#deapi.Client.set_current_camera" title="deapi.Client.set_current_camera"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_current_camera</span></code></a>([camera_name])</p></td>
+<td><p>Deprecated function.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_engineering_mode.html#deapi.Client.set_engineering_mode" title="deapi.Client.set_engineering_mode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_engineering_mode</span></code></a>(enable, password)</p></td>
+<td><p>Set the engineering mode of the camera on DE-Server.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_hw_roi.html#deapi.Client.set_hw_roi" title="deapi.Client.set_hw_roi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_hw_roi</span></code></a>(offset_x, offset_y, ...)</p></td>
+<td><p>Set the hardware region of interest (ROI) of the camera on DE-Server.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_hw_roi_and_get_changed_properties.html#deapi.Client.set_hw_roi_and_get_changed_properties" title="deapi.Client.set_hw_roi_and_get_changed_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_hw_roi_and_get_changed_properties</span></code></a>(...)</p></td>
+<td><p>Set the hardware region of interest (ROI) of the camera on DE-Server and get all the changed properties.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_log_level.html#deapi.Client.set_log_level" title="deapi.Client.set_log_level"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_log_level</span></code></a>(level)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.setROI.html#deapi.Client.setROI" title="deapi.Client.setROI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.setROI</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_property.html#deapi.Client.set_property" title="deapi.Client.set_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_property</span></code></a>(name, value)</p></td>
+<td><p>Set the value of a property of the camera on DE-Server</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_adaptive_roi.html#deapi.Client.set_adaptive_roi" title="deapi.Client.set_adaptive_roi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_adaptive_roi</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_property_and_get_changed_properties.html#deapi.Client.set_property_and_get_changed_properties" title="deapi.Client.set_property_and_get_changed_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_property_and_get_changed_properties</span></code></a>(...)</p></td>
+<td><p>Set the value of a property of the camera on DE-Server and get all the changed properties.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_adaptive_roi_and_get_changed_properties.html#deapi.Client.set_adaptive_roi_and_get_changed_properties" title="deapi.Client.set_adaptive_roi_and_get_changed_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_adaptive_roi_and_get_changed_properties</span></code></a>(...)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_register.html#deapi.Client.set_register" title="deapi.Client.set_register"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_register</span></code></a>(name, value)</p></td>
+<td><p>Set the value of a register of the camera on DE-Server</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_binning.html#deapi.Client.set_binning" title="deapi.Client.set_binning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_binning</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_client_read_only.html#deapi.Client.set_client_read_only" title="deapi.Client.set_client_read_only"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_client_read_only</span></code></a>(read_only)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_current_camera.html#deapi.Client.set_current_camera" title="deapi.Client.set_current_camera"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_current_camera</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_engineering_mode.html#deapi.Client.set_engineering_mode" title="deapi.Client.set_engineering_mode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_engineering_mode</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_hw_roi.html#deapi.Client.set_hw_roi" title="deapi.Client.set_hw_roi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_hw_roi</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_hw_roi_and_get_changed_properties.html#deapi.Client.set_hw_roi_and_get_changed_properties" title="deapi.Client.set_hw_roi_and_get_changed_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_hw_roi_and_get_changed_properties</span></code></a>(...)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_log_level.html#deapi.Client.set_log_level" title="deapi.Client.set_log_level"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_log_level</span></code></a>(level)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_property.html#deapi.Client.set_property" title="deapi.Client.set_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_property</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_property_and_get_changed_properties.html#deapi.Client.set_property_and_get_changed_properties" title="deapi.Client.set_property_and_get_changed_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_property_and_get_changed_properties</span></code></a>(...)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_sw_roi.html#deapi.Client.set_sw_roi" title="deapi.Client.set_sw_roi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_sw_roi</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_sw_roi.html#deapi.Client.set_sw_roi" title="deapi.Client.set_sw_roi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_sw_roi</span></code></a>(offsetX, offsetY, sizeX, sizeY)</p></td>
+<td><p>Set the software region of interest (ROI) of the camera on DE-Server.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_sw_roi_and_get_changed_properties.html#deapi.Client.set_sw_roi_and_get_changed_properties" title="deapi.Client.set_sw_roi_and_get_changed_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_sw_roi_and_get_changed_properties</span></code></a>(...)</p></td>
-<td><p></p></td>
+<td><p>Set the software region of interest (ROI) of the camera on DE-Server and get all of the changed properties.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_virtual_mask.html#deapi.Client.set_virtual_mask" title="deapi.Client.set_virtual_mask"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_virtual_mask</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.set_virtual_mask.html#deapi.Client.set_virtual_mask" title="deapi.Client.set_virtual_mask"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_virtual_mask</span></code></a>(id, w, h, mask)</p></td>
+<td><p>Set the virtual mask of the camera on DE-Server.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_xy_array.html#deapi.Client.set_xy_array" title="deapi.Client.set_xy_array"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_xy_array</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.set_xy_array.html#deapi.Client.set_xy_array" title="deapi.Client.set_xy_array"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.set_xy_array</span></code></a>(positions[, width, height])</p></td>
+<td><p>Set the scan array for a set of x,y positions.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.start_acquisition.html#deapi.Client.start_acquisition" title="deapi.Client.start_acquisition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.start_acquisition</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.start_acquisition.html#deapi.Client.start_acquisition" title="deapi.Client.start_acquisition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.start_acquisition</span></code></a>([...])</p></td>
+<td><p>Start acquiring images.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.start_manual_final_saving.html#deapi.Client.start_manual_final_saving" title="deapi.Client.start_manual_final_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.start_manual_final_saving</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.start_manual_final_saving.html#deapi.Client.start_manual_final_saving" title="deapi.Client.start_manual_final_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.start_manual_final_saving</span></code></a>()</p></td>
+<td><p>Start saving movie during acquisition.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.start_manual_movie_saving.html#deapi.Client.start_manual_movie_saving" title="deapi.Client.start_manual_movie_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.start_manual_movie_saving</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.start_manual_movie_saving.html#deapi.Client.start_manual_movie_saving" title="deapi.Client.start_manual_movie_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.start_manual_movie_saving</span></code></a>()</p></td>
+<td><p>Start saving movie during acquisition.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.stop_acquisition.html#deapi.Client.stop_acquisition" title="deapi.Client.stop_acquisition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.stop_acquisition</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.stop_acquisition.html#deapi.Client.stop_acquisition" title="deapi.Client.stop_acquisition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.stop_acquisition</span></code></a>()</p></td>
+<td><p>Stop acquiring images.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.stop_manual_final_saving.html#deapi.Client.stop_manual_final_saving" title="deapi.Client.stop_manual_final_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.stop_manual_final_saving</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.stop_manual_final_saving.html#deapi.Client.stop_manual_final_saving" title="deapi.Client.stop_manual_final_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.stop_manual_final_saving</span></code></a>()</p></td>
+<td><p>Stop saving movie during acquisition.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.stop_manual_movie_saving.html#deapi.Client.stop_manual_movie_saving" title="deapi.Client.stop_manual_movie_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.stop_manual_movie_saving</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.stop_manual_movie_saving.html#deapi.Client.stop_manual_movie_saving" title="deapi.Client.stop_manual_movie_saving"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.stop_manual_movie_saving</span></code></a>()</p></td>
+<td><p>Stop saving movie during acquisition.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.take_dark_reference.html#deapi.Client.take_dark_reference" title="deapi.Client.take_dark_reference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.take_dark_reference</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.take_dark_reference.html#deapi.Client.take_dark_reference" title="deapi.Client.take_dark_reference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.take_dark_reference</span></code></a>([frame_rate, ...])</p></td>
+<td><p>Take dark reference images.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.take_gain_reference.html#deapi.Client.take_gain_reference" title="deapi.Client.take_gain_reference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.take_gain_reference</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.take_gain_reference.html#deapi.Client.take_gain_reference" title="deapi.Client.take_gain_reference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.take_gain_reference</span></code></a>(frame_rate[, ...])</p></td>
+<td><p>Take a gain reference.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.take_trial_gain_reference.html#deapi.Client.take_trial_gain_reference" title="deapi.Client.take_trial_gain_reference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.take_trial_gain_reference</span></code></a>(**kwargs)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="deapi.Client.take_trial_gain_reference.html#deapi.Client.take_trial_gain_reference" title="deapi.Client.take_trial_gain_reference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.take_trial_gain_reference</span></code></a>([...])</p></td>
+<td><p>Take a trial gain reference.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="deapi.Client.update_image_size.html#deapi.Client.update_image_size" title="deapi.Client.update_image_size"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Client.update_image_size</span></code></a>()</p></td>
 <td><p></p></td>
@@ -746,6 +790,9 @@
 </div><div class="sphx-glr-thumbcontainer" tooltip="The virtual images are created by summing or subtracting the pixel values of the input image based on the values of the virtual masks. The virtual masks are 8-bit images with values: - 0: Negative Mask, pixel values subtracted - 1: Default value, pixels not accounted for - 2: Positive Mask, pixel values added"><img alt="" src="../../_images/sphx_glr_vdf_vbf_thumb.png" />
 <p><a class="reference internal" href="../../examples/virtual_imaging/vdf_vbf.html"><span class="doc">Virtual Dark/Bright Field (VDF/VBF) Imaging</span></a></p>
   <div class="sphx-glr-thumbnail-title">Virtual Dark/Bright Field (VDF/VBF) Imaging</div>
+</div><div class="sphx-glr-thumbcontainer" tooltip="The get_result function is the main entry point to access results while an acquisition is running, and after it has finished.  The function can be slightly confusing at first but this tutorial hopefully helps to simplify and clarify its usage and show how powerful the function is and how you can leverage it to build fast/responsive visualization tools."><img alt="" src="../../_images/sphx_glr_using_get_result_thumb.png" />
+<p><a class="reference internal" href="../../examples/visualization/using_get_result.html"><span class="doc">The get_result Function</span></a></p>
+  <div class="sphx-glr-thumbnail-title">The get_result Function</div>
 </div></div></section>
 </section>
 

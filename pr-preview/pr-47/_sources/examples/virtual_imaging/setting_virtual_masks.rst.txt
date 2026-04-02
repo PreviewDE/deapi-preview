@@ -65,11 +65,6 @@ Additionally virtual images can be
 
  .. code-block:: none
 
-    Command Version:  13
-    Response: 1806
-    Sending mask of size 1048576
-    Response: 1806
-    Response: 1806
     Virtual Mask 0:  (1024, 1024)
 
 
@@ -106,9 +101,6 @@ be 2 (positive mask)
 
  .. code-block:: none
 
-    Response: 1806
-    Sending mask of size 1048576
-    Response: 1806
 
     <Axes: >
 
@@ -145,13 +137,8 @@ The calculation attribute. Lets try that with Virtual image 1
 
  .. code-block:: none
 
-    /home/runner/work/deapi/deapi/deapi/data_types.py:591: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
+    /home/runner/work/deapi/deapi/deapi/data_types.py:706: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
       warnings.warn(
-    Response: 1806
-    Sending mask of size 1048576
-    Response: 1806
-    Sending mask of size 1048576
-    Response: 1806
 
     <Axes: >
 
@@ -188,12 +175,6 @@ Creating a Virtual BrightField Image
 
  .. code-block:: none
 
-    Response: 1806
-    Response: 1806
-    Sending mask of size 1048576
-    Response: 1806
-    Sending mask of size 1048576
-    Response: 1806
 
     <Axes: >
 
@@ -221,13 +202,6 @@ Creating a Virtual BrightField Image
    :srcset: /examples/virtual_imaging/images/sphx_glr_setting_virtual_masks_005.png
    :class: sphx-glr-single-img
 
-
-.. rst-class:: sphx-glr-script-out
-
- .. code-block:: none
-
-    Response: 1806
-    Response: 1806
 
 
 
@@ -266,21 +240,13 @@ start acquisition function
    :class: sphx-glr-single-img
 
 
-.. rst-class:: sphx-glr-script-out
-
- .. code-block:: none
-
-    Response: 1797
-    Response: 1807
-    Response: 1807
-
 
 
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 2.135 seconds)
+   **Total running time of the script:** (0 minutes 2.170 seconds)
 
 
 .. _sphx_glr_download_examples_virtual_imaging_setting_virtual_masks.py:

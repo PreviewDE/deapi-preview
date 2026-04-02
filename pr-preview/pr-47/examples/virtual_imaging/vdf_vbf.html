@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Virtual Dark/Bright Field (VDF/VBF) Imaging &#8212; deapi 0.1.0 documentation</title>
+    <title>Virtual Dark/Bright Field (VDF/VBF) Imaging &#8212; deapi 5.3.0 documentation</title>
   
   
   
@@ -42,17 +42,17 @@
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="../../_static/documentation_options.js?v=01f34227"></script>
+    <script src="../../_static/documentation_options.js?v=5c0b1849"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'examples/virtual_imaging/vdf_vbf';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Changelog" href="../../changes.html" />
+    <link rel="next" title="Visualization" href="../visualization/index.html" />
     <link rel="prev" title="Creating a Custom Virtual Mask" href="setting_virtual_masks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
+  <meta name="docsearch:version" content="5.3.0" />
   </head>
   
   
@@ -118,8 +118,8 @@
       
     
     
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 0.1.0 documentation - Home"/>
-    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 0.1.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 5.3.0 documentation - Home"/>
+    <img src="../../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 5.3.0 documentation - Home"/>
   
   
 </a></div>
@@ -321,6 +321,11 @@
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Virtual Dark/Bright Field (VDF/VBF) Imaging</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../visualization/index.html">Visualization</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../visualization/creating_a_simple_dashboard.html">Creating a Simple Dashboard with Panel and Matplotlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../visualization/using_get_result.html">The <cite>get_result</cite> Function</a></li>
+</ul>
+</details></li>
 </ul>
 </div>
 </nav></div>
@@ -426,9 +431,6 @@ disk in the diffraction pattern.</p></li>
 <a href="../../reference/generated/deapi.Client.connect.html#deapi.Client.connect" title="deapi.Client.connect" class="sphx-glr-backref-module-deapi sphx-glr-backref-type-py-method"><span class="n">client</span><span class="o">.</span><span class="n">connect</span></a><span class="p">(</span><span class="n">port</span><span class="o">=</span><span class="mi">13240</span><span class="p">)</span>  <span class="c1"># connect to the running DE Server</span>
 </pre></div>
 </div>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Command Version:  13
-</pre></div>
-</div>
 <section id="get-a-single-diffraction-pattern">
 <h2>Get A Single Diffraction Pattern<a class="headerlink" href="#get-a-single-diffraction-pattern" title="Link to this heading">#</a></h2>
 <p>We will acquire a single diffraction pattern to guide the virtual masks.
@@ -448,7 +450,6 @@ We can then use the brightest disk in the diffraction pattern to generate the VD
 </div>
 <div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Acquiring a single diffraction pattern...
 Acquisition finished.
-Response: 1808
 </pre></div>
 </div>
 <p>Define a function to automatically find the bright field in the diffraction pattern</p>
@@ -499,19 +500,9 @@ Response: 1808
 </ul>
 <div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Creating virtual masks...
 Setting calculation
-/home/runner/work/deapi/deapi/deapi/data_types.py:591: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
+/home/runner/work/deapi/deapi/deapi/data_types.py:706: UserWarning: Virtual mask shape is not set to Arbitrary. Setting to Arbitrary.
   warnings.warn(
-Response: 1808
-Sending mask of size 1048576
-Response: 1808
-Sending mask of size 1048576
 Virtual Mask 1: VBF Sum
-Response: 1808
-Response: 1808
-Sending mask of size 1048576
-Response: 1808
-Sending mask of size 1048576
-Response: 1808
 Virtual Masks:
 VBF: VBF (Sum)
 VDF: VDF (Sum)
@@ -538,12 +529,9 @@ VDF: VDF (Sum)
 </pre></div>
 </div>
 <img src="../../_images/sphx_glr_vdf_vbf_003.png" srcset="../../_images/sphx_glr_vdf_vbf_003.png" alt="virtual_image0, virtual_image1, virtual_image2" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Acquiring virtual images...
-Response: 1797
-Response: 1797
-Response: 1807
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 5.042 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 5.530 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-virtual-imaging-vdf-vbf-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/5680dc2a979f35ad6730ec6798425cae/vdf_vbf.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">vdf_vbf.ipynb</span></code></a></p>
@@ -579,11 +567,11 @@ Response: 1807
       </div>
     </a>
     <a class="right-next"
-       href="../../changes.html"
+       href="../visualization/index.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Changelog</p>
+        <p class="prev-next-title">Visualization</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

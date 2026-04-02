@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Using the DEAPI &#8212; deapi 0.1.0 documentation</title>
+    <title>Using the DEAPI &#8212; deapi 5.3.0 documentation</title>
   
   
   
@@ -42,7 +42,7 @@
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="../_static/documentation_options.js?v=01f34227"></script>
+    <script src="../_static/documentation_options.js?v=5c0b1849"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'examples/index';</script>
@@ -52,7 +52,7 @@
     <link rel="prev" title="create_grains" href="../reference/generated/deapi.fake_data.TiltGrains.create_grains.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
+  <meta name="docsearch:version" content="5.3.0" />
   </head>
   
   
@@ -118,8 +118,8 @@
       
     
     
-    <img src="../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 0.1.0 documentation - Home"/>
-    <img src="../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 0.1.0 documentation - Home"/>
+    <img src="../_static/de_api_icon.svg" class="logo__image only-light" alt="deapi 5.3.0 documentation - Home"/>
+    <img src="../_static/de_api_icon.svg" class="logo__image only-dark pst-js-only" alt="deapi 5.3.0 documentation - Home"/>
   
   
 </a></div>
@@ -321,6 +321,11 @@
 <li class="toctree-l2"><a class="reference internal" href="virtual_imaging/vdf_vbf.html">Virtual Dark/Bright Field (VDF/VBF) Imaging</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="visualization/index.html">Visualization</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="visualization/creating_a_simple_dashboard.html">Creating a Simple Dashboard with Panel and Matplotlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="visualization/using_get_result.html">The <cite>get_result</cite> Function</a></li>
+</ul>
+</details></li>
 </ul>
 </div>
 </nav></div>
@@ -418,6 +423,17 @@
 </div><div class="sphx-glr-thumbcontainer" tooltip="The virtual images are created by summing or subtracting the pixel values of the input image based on the values of the virtual masks. The virtual masks are 8-bit images with values: - 0: Negative Mask, pixel values subtracted - 1: Default value, pixels not accounted for - 2: Positive Mask, pixel values added"><img alt="" src="../_images/sphx_glr_vdf_vbf_thumb.png" />
 <p><a class="reference internal" href="virtual_imaging/vdf_vbf.html"><span class="doc">Virtual Dark/Bright Field (VDF/VBF) Imaging</span></a></p>
   <div class="sphx-glr-thumbnail-title">Virtual Dark/Bright Field (VDF/VBF) Imaging</div>
+</div></div></section>
+<section id="visualization">
+<h1>Visualization<a class="headerlink" href="#visualization" title="Link to this heading">#</a></h1>
+<p>One key thing many people are interested in is how to visualize their data. Below are some examples/ explanations of
+how to visualize your data.</p>
+<div class="sphx-glr-thumbnails"><div class="sphx-glr-thumbcontainer" tooltip="If you haven&#x27;t already looked at the &quot;The get_result Function&quot; example, please do so as it provides important context for how the get_result function can be used to build responsive visualization tools by offloading the heavy lifting for visualization to the server side."><img alt="" src="../_images/sphx_glr_creating_a_simple_dashboard_thumb.png" />
+<p><a class="reference internal" href="visualization/creating_a_simple_dashboard.html"><span class="doc">Creating a Simple Dashboard with Panel and Matplotlib</span></a></p>
+  <div class="sphx-glr-thumbnail-title">Creating a Simple Dashboard with Panel and Matplotlib</div>
+</div><div class="sphx-glr-thumbcontainer" tooltip="The get_result function is the main entry point to access results while an acquisition is running, and after it has finished.  The function can be slightly confusing at first but this tutorial hopefully helps to simplify and clarify its usage and show how powerful the function is and how you can leverage it to build fast/responsive visualization tools."><img alt="" src="../_images/sphx_glr_using_get_result_thumb.png" />
+<p><a class="reference internal" href="visualization/using_get_result.html"><span class="doc">The get_result Function</span></a></p>
+  <div class="sphx-glr-thumbnail-title">The get_result Function</div>
 </div></div><div class="toctree-wrapper compound">
 </div>
 <div class="sphx-glr-footer sphx-glr-footer-gallery docutils container">
@@ -483,6 +499,7 @@
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#taking-references">Taking References</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-an-acquisition">Setting up an Acquisition</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#virtual-imaging">Virtual Imaging</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#visualization">Visualization</a></li>
 </ul>
 
   </nav></div>
