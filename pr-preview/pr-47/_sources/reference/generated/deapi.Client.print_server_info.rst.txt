@@ -1,6 +1,0 @@
-print\_server\_info
-===================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.print_server_info

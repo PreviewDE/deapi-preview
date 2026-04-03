@@ -1,9 +1,0 @@
-eventMutex
-==========
-
-.. currentmodule:: deapi
-
-.. autoproperty:: Client.eventMutex
-
-.. minigallery:: deapi.Client.eventMutex
-    :add-heading: Examples using ``Client.eventMutex``

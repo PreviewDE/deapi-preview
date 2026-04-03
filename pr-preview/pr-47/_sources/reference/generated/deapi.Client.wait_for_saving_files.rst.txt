@@ -1,6 +1,0 @@
-wait\_for\_saving\_files
-========================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.wait_for_saving_files
