@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:31.068** total execution time for 4 files **from examples/live_imaging**:
+**00:31.031** total execution time for 4 files **from examples/live_imaging**:
 
 .. container::
 
@@ -36,11 +36,11 @@ Computation times
      - 00:25.455
      - 0.0
    * - :ref:`sphx_glr_examples_live_imaging_bright_spot_intensity.py` (``bright_spot_intensity.py``)
-     - 00:04.883
+     - 00:04.901
      - 0.0
    * - :ref:`sphx_glr_examples_live_imaging_viewing_the_sensor.py` (``viewing_the_sensor.py``)
-     - 00:00.653
+     - 00:00.592
      - 0.0
    * - :ref:`sphx_glr_examples_live_imaging_viewing_the_sensor_tem.py` (``viewing_the_sensor_tem.py``)
-     - 00:00.077
+     - 00:00.083
      - 0.0
