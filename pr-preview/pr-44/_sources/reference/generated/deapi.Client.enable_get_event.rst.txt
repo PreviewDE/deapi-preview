@@ -1,6 +1,0 @@
-enable\_get\_event
-==================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.enable_get_event

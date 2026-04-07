@@ -1,6 +1,0 @@
-getProperty
-===========
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.getProperty

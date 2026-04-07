@@ -1,6 +1,0 @@
-print\_saving\_info
-===================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.print_saving_info
