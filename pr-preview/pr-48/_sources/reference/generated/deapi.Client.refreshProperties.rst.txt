@@ -1,9 +1,0 @@
-refreshProperties
-=================
-
-.. currentmodule:: deapi
-
-.. autoproperty:: Client.refreshProperties
-
-.. minigallery:: deapi.Client.refreshProperties
-    :add-heading: Examples using ``Client.refreshProperties``
