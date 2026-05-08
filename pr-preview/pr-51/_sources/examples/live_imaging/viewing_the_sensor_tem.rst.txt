@@ -107,7 +107,7 @@ This example shows how to view the sensor in TEM mode using the DEAPI.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 0.075 seconds)
+   **Total running time of the script:** (0 minutes 0.079 seconds)
 
 
 .. _sphx_glr_download_examples_live_imaging_viewing_the_sensor_tem.py:
