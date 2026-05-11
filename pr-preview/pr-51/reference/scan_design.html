@@ -878,7 +878,7 @@ A-B-C-D-E-F-G-H-I-A-B-C-D-E-F-G-H-I-…</p>
 </section>
 <section id="returning-virtual-images">
 <h2><a class="toc-backref" href="#id5" role="doc-backlink">Returning Virtual Images</a><a class="headerlink" href="#returning-virtual-images" title="Link to this heading">#</a></h2>
-<p>When <code class="docutils literal notranslate"><span class="pre">Scan</span> <span class="pre">-</span> <span class="pre">Repeats</span></code> &gt; 1 and <code class="docutils literal notranslate"><span class="pre">Scan</span> <span class="pre">-</span> <span class="pre">Repeat</span> <span class="pre">Delay</span> <span class="pre">(seconds)</span></code> &gt; 5, the camera
+<p>When <code class="docutils literal notranslate"><span class="pre">Scan</span> <span class="pre">-</span> <span class="pre">Repeats</span></code> &gt; 1 and <code class="docutils literal notranslate"><span class="pre">Scan</span> <span class="pre">-</span> <span class="pre">Repeat</span> <span class="pre">Delay</span> <span class="pre">(seconds)</span></code> &lt; 5, the camera
 will operate continuously: the shutter remains open and the probe moves to the park
 position for the duration of the delay. The beam is <strong>not</strong> blanked during this time.</p>
 <p>Virtual images are continuously written to disk using a <strong>Ping-Pong buffer</strong> (A → B → A → B …)
