@@ -1,9 +1,0 @@
-category
-========
-
-.. currentmodule:: deapi
-
-.. autoproperty:: PropertySpec.category
-
-.. minigallery:: deapi.PropertySpec.category
-    :add-heading: Examples using ``PropertySpec.category``

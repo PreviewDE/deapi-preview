@@ -1,6 +1,0 @@
-set\_property\_and\_get\_changed\_properties
-============================================
-
-.. currentmodule:: deapi
-
-.. automethod:: Client.set_property_and_get_changed_properties
